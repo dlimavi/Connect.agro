@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16A34D77-73AA-4561-9A35-0D805FF8AF45}|Connect.Agro.Api.csproj|c:\\users\\berna\\onedrive\\documentos\\myprojects\\rudimentarycruds\\connect.agro.api\\controllers\\storagereportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A34D77-73AA-4561-9A35-0D805FF8AF45}|Connect.Agro.Api.csproj|solutionrelative:controllers\\storagereportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87ACCC6C-AB1E-4535-9E44-0311DDB0C8BA}|..\\Connect.Agro\\Connect.Agro.csproj|c:\\users\\berna\\onedrive\\documentos\\myprojects\\rudimentarycruds\\connect.agro\\repositories\\storagereportsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87ACCC6C-AB1E-4535-9E44-0311DDB0C8BA}|..\\Connect.Agro\\Connect.Agro.csproj|c:\\users\\berna\\onedrive\\documentos\\myprojects\\rudimentarycruds\\connect.agro\\models\\domain\\storageproduce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87ACCC6C-AB1E-4535-9E44-0311DDB0C8BA}|..\\Connect.Agro\\Connect.Agro.csproj|c:\\users\\berna\\onedrive\\documentos\\myprojects\\rudimentarycruds\\connect.agro\\models\\storageitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87ACCC6C-AB1E-4535-9E44-0311DDB0C8BA}|..\\Connect.Agro\\Connect.Agro.csproj|c:\\users\\berna\\onedrive\\documentos\\myprojects\\rudimentarycruds\\connect.agro\\repositories\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A34D77-73AA-4561-9A35-0D805FF8AF45}|Connect.Agro.Api.csproj|c:\\users\\berna\\onedrive\\documentos\\myprojects\\rudimentarycruds\\connect.agro.api\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A34D77-73AA-4561-9A35-0D805FF8AF45}|Connect.Agro.Api.csproj|solutionrelative:controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A34D77-73AA-4561-9A35-0D805FF8AF45}|Connect.Agro.Api.csproj|c:\\users\\berna\\onedrive\\documentos\\myprojects\\rudimentarycruds\\connect.agro.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A34D77-73AA-4561-9A35-0D805FF8AF45}|Connect.Agro.Api.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87ACCC6C-AB1E-4535-9E44-0311DDB0C8BA}|..\\Connect.Agro\\Connect.Agro.csproj|c:\\users\\berna\\onedrive\\documentos\\myprojects\\rudimentarycruds\\connect.agro\\models\\consts\\settingsconsts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87ACCC6C-AB1E-4535-9E44-0311DDB0C8BA}|..\\Connect.Agro\\Connect.Agro.csproj|c:\\users\\berna\\onedrive\\documentos\\myprojects\\rudimentarycruds\\connect.agro\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87ACCC6C-AB1E-4535-9E44-0311DDB0C8BA}|..\\Connect.Agro\\Connect.Agro.csproj|c:\\users\\berna\\onedrive\\documentos\\myprojects\\rudimentarycruds\\connect.agro\\models\\domain\\supply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A34D77-73AA-4561-9A35-0D805FF8AF45}|Connect.Agro.Api.csproj|c:\\users\\berna\\onedrive\\documentos\\myprojects\\rudimentarycruds\\connect.agro.api\\controllers\\sectorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A34D77-73AA-4561-9A35-0D805FF8AF45}|Connect.Agro.Api.csproj|solutionrelative:controllers\\sectorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StorageProduce.cs",
+              "DocumentMoniker": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Models\\Domain\\StorageProduce.cs",
+              "RelativeDocumentMoniker": "..\\Connect.Agro\\Models\\Domain\\StorageProduce.cs",
+              "ToolTip": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Models\\Domain\\StorageProduce.cs",
+              "RelativeToolTip": "..\\Connect.Agro\\Models\\Domain\\StorageProduce.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T15:29:48.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro.Api\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro.Api\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "Controllers\\SupplierController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwDMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:26:01.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SupplierRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Repositories\\SupplierRepository.cs",
+              "RelativeDocumentMoniker": "..\\Connect.Agro\\Repositories\\SupplierRepository.cs",
+              "ToolTip": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Repositories\\SupplierRepository.cs",
+              "RelativeToolTip": "..\\Connect.Agro\\Repositories\\SupplierRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:22:30.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SettingsConsts.cs",
+              "DocumentMoniker": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Models\\Consts\\SettingsConsts.cs",
+              "RelativeDocumentMoniker": "..\\Connect.Agro\\Models\\Consts\\SettingsConsts.cs",
+              "ToolTip": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Models\\Consts\\SettingsConsts.cs",
+              "RelativeToolTip": "..\\Connect.Agro\\Models\\Consts\\SettingsConsts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:09:05.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "..\\Connect.Agro\\Helpers\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "..\\Connect.Agro\\Helpers\\JwtHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:08:40.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Supply.cs",
+              "DocumentMoniker": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Models\\Domain\\Supply.cs",
+              "RelativeDocumentMoniker": "..\\Connect.Agro\\Models\\Domain\\Supply.cs",
+              "ToolTip": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Models\\Domain\\Supply.cs",
+              "RelativeToolTip": "..\\Connect.Agro\\Models\\Domain\\Supply.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:07:07.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StorageItem.cs",
+              "DocumentMoniker": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Models\\StorageItem.cs",
+              "RelativeDocumentMoniker": "..\\Connect.Agro\\Models\\StorageItem.cs",
+              "ToolTip": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Models\\StorageItem.cs",
+              "RelativeToolTip": "..\\Connect.Agro\\Models\\StorageItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:52:22.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StorageReportsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Repositories\\StorageReportsRepository.cs",
+              "RelativeDocumentMoniker": "..\\Connect.Agro\\Repositories\\StorageReportsRepository.cs",
+              "ToolTip": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Repositories\\StorageReportsRepository.cs",
+              "RelativeToolTip": "..\\Connect.Agro\\Repositories\\StorageReportsRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwD0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:44:44.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StorageReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro.Api\\Controllers\\StorageReportsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StorageReportsController.cs",
+              "ToolTip": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro.Api\\Controllers\\StorageReportsController.cs*",
+              "RelativeToolTip": "Controllers\\StorageReportsController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:35:27.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro.Api\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro.Api\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:28:51.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SectorController.cs",
+              "DocumentMoniker": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro.Api\\Controllers\\SectorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SectorController.cs",
+              "ToolTip": "C:\\Users\\Berna\\OneDrive\\Documentos\\MyProjects\\RudimentaryCruds\\Connect.Agro.Api\\Controllers\\SectorController.cs",
+              "RelativeToolTip": "Controllers\\SectorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:28:38.265Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
