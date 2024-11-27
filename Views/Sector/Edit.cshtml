@@ -1,0 +1,28 @@
+﻿@using Connect.Agro.Models.Domain
+@model Sector
+@{
+    ViewData["Title"] = "Alteração de cadastro de Setores";
+}
+
+<div class="row justify-content-md-center">
+    <div class="col-6">
+        <form class="register-form" asp-controller="Sector" asp-action="Edit" method="post">
+            <div class="mb-3">
+                <label for="description" class="form-label">Descrição:</label>
+                <input type="text" asp-for="Description" class="form-control" placeholder="Digite aqui o nome do setor" id="descriptionInput">
+            </div>
+            <div class="mb-3">
+                <label for="capacity" class="form-label">Capacidade:</label>
+                <input type="number" asp-for="Capacity" class="form-control" placeholder="Digite aqui a capacidade do setor" id="capacityInput">
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a class="btn btn-danger" asp-controller="Sector" asp-action="Index">Cancelar</a>
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

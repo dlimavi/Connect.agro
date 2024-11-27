@@ -1,0 +1,41 @@
+﻿@using Connect.Agro.Models.Domain
+@using Connect.Agro.Models.Dtos.Requests;
+@model CreateSaleRequest;
+@{
+    ViewData["Title"] = "Cadastro de Vendas";
+}
+
+<div class="row justify-content-md-center">
+    <div class="col-6">
+        <form class="register-form" asp-controller="Sale" asp-action="Register" method="post">
+            <div class="mb-3">
+                <label class="form-label">Produto:</label>
+                <select asp-for="ProductId" asp-items="ViewBag.Produces" class="form-control"></select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Data da venda:</label>
+                <input type="date" asp-for="Date" class="form-control" id="dateInput">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Quantidade:</label>
+                <input type="number" asp-for="Quantity" class="form-control" id="dateInput">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Cliente:</label>
+                <select asp-for="CustomerId"  asp-items="ViewBag.Customers" class="form-control" > </select>
+            </div>
+
+            <br />
+            <br />
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a class="btn btn-danger" asp-controller="Sale" asp-action="Index">Cancelar</a>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+

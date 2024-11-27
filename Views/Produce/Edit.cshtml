@@ -1,0 +1,32 @@
+﻿@using Connect.Agro.Models.Domain
+@model Produce
+@{
+    ViewData["Title"] = "Alteração de cadastro de Produtos";
+}
+
+<div class="row justify-content-md-center">
+    <div class="col-6">
+        <form class="register-form" asp-controller="Produce" asp-action="Edit" method="post">
+            <div class="mb-3">
+                <label for="description" class="form-label">Descrição:</label>
+                <input type="text" asp-for="Description" class="form-control" placeholder="Digite aqui a descrição" id="descriptionInput">
+            </div>
+            <div class="mb-3">
+                <label for="price" class="form-label">Preço:</label>
+                <input type="text" asp-for="Price" class="form-control" placeholder="00,00" id="emailInput">
+            </div>
+            <div class="mb-3">
+                <label for="document" class="form-label">Dias para crescer:</label>
+                <input type="number" asp-for="DaysToGrow" class="form-control" placeholder="0" id="documentInput">
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a class="btn btn-danger" asp-controller="Produce" asp-action="Index">Cancelar</a>
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

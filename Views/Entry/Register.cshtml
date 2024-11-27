@@ -1,0 +1,36 @@
+﻿@using Connect.Agro.Models.Dtos.Requests;
+@model CreateEntryRequest;
+@{
+    ViewData["Title"] = "Cadastro de Compras";
+}
+
+<div class="row justify-content-md-center">    
+    <div class="col-6">
+        <form class="register-form" asp-controller="Entry" asp-action="Register" method="post">
+            <div class="mb-3">
+                <label class="form-label">Suprimento:</label>
+                <select asp-for="ProductId" asp-items="ViewBag.Supplies" class="form-control"></select>
+            </div>
+            <div class="mb-3">
+                <label for="date" class="form-label">Data da compra:</label>
+                <input type="date" asp-for="Date" class="form-control" id="dateInput">
+            </div>
+            <div class="mb-3">
+                <label for="quantity" class="form-label">Quantidade:</label>
+                <input type="number" asp-for="Quantity" class="form-control" id="quantityInput">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Fornecedor:</label>
+                <select asp-for="SupplierId" asp-items="ViewBag.Suppliers" class="form-control"> </select>
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a class="btn btn-danger" asp-controller="Entry" asp-action="Index">Cancelar</a>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

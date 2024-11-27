@@ -1,0 +1,32 @@
+﻿@using Connect.Agro.Models.Domain
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model List<StorageProduce>
+@{
+    ViewData["Title"] = "Estoque de Produtos";
+}
+
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Descrição</th>
+                <th scope="col">Preço</th>
+                <th scope="col">Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <td>@item.Description</td>
+                    <td>@item.Price</td>
+                    <td>@item.Quantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

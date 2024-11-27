@@ -1,0 +1,48 @@
+﻿@using Connect.Agro.Models.Domain
+@model List<Supply>
+@{
+    ViewData["Title"] = "Suprimentos";
+}
+<div class="view-actions-div">
+    <div class="left-side-view-action"></div>
+    <div class="right-side-view-action">
+        <a class="register-button" asp-controller="Supply" asp-action="Register"> + Cadastrar Suprimento </a>
+    </div>
+</div>
+
+<div class="row"></div>
+<br />
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Preço</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Any())
+        {
+            foreach (var supply in Model)
+            {
+                <tr>
+                    <th scope="row">@supply.Id</th>
+                    <td>@supply.Description</td>
+                    <td>@supply.Price</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a role="button" class="btn btn-outline-primary" asp-route-id="@supply.Id" asp-controller="Supply" asp-action="Edit">Editar</a>
+                            <a role="button" class="btn btn-outline-danger" asp-route-id="@supply.Id" asp-controller="Supply" asp-action="Delete">Excluir</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
+
+
+

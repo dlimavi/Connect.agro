@@ -1,0 +1,9 @@
+﻿@if (ViewData["ExceptionMessage"] != null)
+{
+    
+    <div class="container-fluid">
+        <div class="alert alert-danger" role="alert">
+            <p>Detalhes do erro: @ViewData["ExceptionMessage"]</p>
+        </div>
+    </div>
+}

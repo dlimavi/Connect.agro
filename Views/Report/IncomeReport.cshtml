@@ -1,0 +1,33 @@
+﻿@using Connect.Agro.Dll.src.Models.Domain
+
+@model List<FinanceReport>
+
+@{
+    ViewData["Title"] = "Relatórios de vendas por mês";
+}
+
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Ano</th>
+                <th scope="col">Mês</th>
+                <th scope="col">Produto</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col">Cliente</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Year</td>
+                    <td>@item.Month</td>
+                    <td>@item.ProductDescription</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.BusinessName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

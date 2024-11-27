@@ -1,0 +1,45 @@
+﻿@using Connect.Agro.Models.Dtos
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model LoginRequestDto
+@{
+    Layout = "_Login";
+ViewData["Title"] = "Login";
+}
+
+<div class="container">
+
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-5 align-self-center">
+            @if(TempData["ErrorMessage"]!= null)
+        {
+            <div class="alert alert-danger alert-dismissible" role="alert">
+                    <button type="button" class="btn btn-danger btn-sm close-alert" data-bs-dismiss="alert" aria-label="Close">X</button>
+                    @TempData["ErrorMessage"]
+                </div>
+        }
+            <form class="register-form" asp-controller="Login" asp-action="Login" method="post">
+
+                <div class="mb-3">
+                    <input type="text" asp-for="Username" class="form-control" id="dateInput" placeholder="Login">
+                    @Html.ValidationMessageFor(x => x.Username)
+                </div>
+                <div class="mb-3">
+                    <input type="password" asp-for="Password" class="form-control" id="dateInput" placeholder="Senha">
+                    @Html.ValidationMessageFor(x => x.Password)
+                </div>
+                <br />
+                <br />
+
+                <div class="d-grid gap-2 col-4 mx-auto">
+                    <button type="submit" class="btn btn-primary btn-lg">Entrar</button>
+                </div>
+            </form>
+
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
+

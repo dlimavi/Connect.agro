@@ -1,0 +1,28 @@
+﻿@using Connect.Agro.Models.Dtos.Requests;
+@model CreateSupplyRequest;
+@{
+    ViewData["Title"] = "Cadastro de Suprimentos";
+}
+
+<div class="row justify-content-md-center">    
+    <div class="col-6">
+        <form class="register-form" asp-controller="Supply" asp-action="Register" method="post">
+            <div class="mb-3">
+                <label for="description" class="form-label">Descrição:</label>
+                <input type="text" asp-for="Description" class="form-control" placeholder="Digite aqui a descrição" id="descriptionInput">
+            </div>
+            <div class="mb-3">
+                <label for="price" class="form-label">Preço:</label>
+                <input type="text" asp-for="Price" class="form-control" placeholder="00,00" id="emailInput">
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a class="btn btn-danger" asp-controller="Supply" asp-action="Index">Cancelar</a>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

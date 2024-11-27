@@ -1,0 +1,51 @@
+﻿@using Connect.Agro.Dll.src.Models.Dtos.Reports
+@model List<SaleReport>
+@{
+    ViewData["Title"] = "Vendas";
+}
+<div class="view-actions-div">
+    <div class="left-side-view-action"></div>
+    <div class="right-side-view-action">
+        <a class="register-button" asp-controller="Sale" asp-action="Register"> + Cadastrar Vendas </a>
+    </div>
+</div>
+
+<div class="row"></div>
+<br />
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Produto</th>
+            <th scope="col">Data da venda</th>
+            <th scope="col">Quantidade</th>
+            <th scope="col">Cliente</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>  
+        @if(Model.Any())
+    {
+        foreach(var sale in Model)
+        {
+            <tr>
+                    <th scope="row">@sale.Id</th>
+                    <td>@sale.ProductDescription </td>
+                    <td>@sale.Date</td>
+                    <td>@sale.Quantity</td>
+                    <td>@sale.CustomerBusinessName</td>
+                    <td>
+                        <div class="btn-group" role="group" >
+                            <a role="button" class="btn btn-outline-primary" asp-route-id = "@sale.Id" asp-controller="Sale" asp-action="Edit">Editar</a>
+                            <a role="button" class="btn btn-outline-danger" asp-route-id="@sale.Id" asp-controller="Sale" asp-action="Delete">Excluir</a>
+                        </div>
+                    </td>
+                </tr>
+        }
+    }
+    </tbody>
+</table>
+
+
+

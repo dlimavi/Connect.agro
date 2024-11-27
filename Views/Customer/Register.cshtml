@@ -1,0 +1,36 @@
+﻿@using Connect.Agro.Models.Dtos.Requests;
+@model CreateCustomerRequest;
+@{
+    ViewData["Title"] = "Cadastro de Clientes";
+}
+
+<div class="row justify-content-md-center">    
+    <div class="col-6">
+        <form class="register-form" asp-controller="Customer" asp-action="Register" method="post">
+            <div class="mb-3">
+                <label for="businessName" class="form-label">Nome fantasia:</label>
+                <input type="text" asp-for="BusinessName" class="form-control" placeholder="Digite aqui o nome fantasia" id="businessNameInput">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" asp-for="Email" class="form-control" placeholder="Digite aqui o e-mail" id="emailInput">
+            </div>
+            <div class="mb-3">
+                <label for="document" class="form-label">CPF/CNPJ:</label>
+                <input type="text" asp-for="Document" class="form-control" placeholder="Digite aqui o número do documento" id="documentInput">
+            </div>
+            <div class="mb-3">
+                <label for="address" class="form-label">Endereço:</label>
+                <input type="text" asp-for="Address" class="form-control" placeholder="Digite aqui o endereço" id="addressInput">
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a class="btn btn-danger" asp-controller="Customer" asp-action="Index">Cancelar</a>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

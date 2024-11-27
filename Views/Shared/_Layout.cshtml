@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Connect.Agro.Web.styles.css" asp-append-version="true" />
+</head>
+<body style="overflow: hidden;">
+    <div class="sidebar">
+        <a class="sidebar-button" asp-controller="Home" asp-action="Index">
+            <div>
+                <img class="sidebar-button-icon" src="~/images/icons/homeicon.png"
+                     alt="Inicio"></>
+                <br />
+                <label>Inicio</label>
+            </div>
+        </a>
+        <a class="sidebar-button" asp-controller="Supply" asp-action="Index">
+        <div>
+
+                <img class="sidebar-button-icon" src="~/images/icons/supplyicon.png"
+                 alt="Suprimentos"></>
+            <br />
+            <label>Suprimentos</label>
+
+        </div>
+        </a>
+        <a class="sidebar-button" asp-controller="Produce" asp-action="Index">
+            <div>
+
+                <img class="sidebar-button-icon" src="~/images/icons/producticon.png"
+                     alt="Produtos"></>
+                <br />
+                <label>Produtos</label>
+
+            </div>
+        </a>
+        <a class="sidebar-button" asp-controller="Customer" asp-action="Index">
+        <div>
+
+                <img class="sidebar-button-icon" src="~/images/icons/personicon.png"
+                 alt="Clientes"></>
+            <br />
+            <label>Clientes</label>
+
+        </div>
+        </a>
+        <a class="sidebar-button" asp-controller="Supplier" asp-action="Index">
+        <div>
+
+                <img class="sidebar-button-icon" src="~/images/icons/truckicon.png"
+                 alt="Fornecedores"></>
+            <br />
+            <label>Fornecedores</label>
+
+        </div>
+        </a>
+        <a class="sidebar-button" asp-controller="Sector" asp-action="Index">
+        <div>
+
+                <img class="sidebar-button-icon" src="~/images/icons/sectorsicon.png"
+                 alt="Setores"></>
+            <br />
+            <label>Setores</label>
+
+        </div>
+        </a>
+        <a class="sidebar-button" asp-controller="Plantation" asp-action="Index">
+        <div>
+
+            <img class = "sidebar-button-icon" src="~/images/icons/planticon.png"
+                 alt="Plantações"></>
+            <br />
+            <label>Plantações</label>
+
+        </div>
+        </a>
+        <a class="sidebar-button" asp-controller="Entry" asp-action="Index">
+            <div>
+
+                <img class = "sidebar-button-icon" src="~/images/icons/entryicon.png"
+                     alt="Compras"></>
+                <br />
+                <label>Compras</label>
+
+            </div>
+        </a>
+        <a class="sidebar-button" asp-controller="Sale" asp-action="Index">
+            <div>
+
+                <img class="sidebar-button-icon" src="~/images/icons/saleicon.png"
+                     alt="Vendas"></>
+                <br />
+                <label>Vendas</label>
+
+            </div>
+        </a>
+    </div>
+    <div class= "top-center-logo">
+        <label style="font-family: 'Roboto', sans-serif; font-size: 4em; color: #ff9100;">Connect</label>
+        <label style="font-family: 'Roboto', sans-serif; font-size: 4em; color: #3fda10;">.Agro</label>
+    </div>
+    <br />
+    @if (ViewData["Title"] != "Home")
+    {
+        <div class = "controller-title">
+            <h1 class="display-6">@ViewData["Title"]</h1>
+        </div>
+    }
+    else
+    {
+        <br />
+        <br />
+    }
+
+    <div class="container-lg current-view">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

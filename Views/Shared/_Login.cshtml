@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Connect.Agro.Web.styles.css" asp-append-version="true" />
+</head>
+<body style="overflow: hidden;" >
+    <img class= "background" src="~/images/bg.png" />
+    <br/>
+    <br />
+    <br />
+    <div class="top-center-logo">
+        <label style="font-family: 'Roboto', sans-serif; font-size: 4em; color: #ff9100;">Connect</label>
+        <label style="font-family: 'Roboto', sans-serif; font-size: 4em; color: #3fda10;">.Agro</label>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="container-lg">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+</body>
+</html>
