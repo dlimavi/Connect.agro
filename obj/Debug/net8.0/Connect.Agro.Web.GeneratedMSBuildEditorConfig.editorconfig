@@ -1,0 +1,163 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Connect.Agro.Web
+build_property.RootNamespace = Connect.Agro.Web
+build_property.ProjectDir = C:\Users\d2idi\Downloads\RudimentaryCruds\RudimentaryCruds\Connect.Agro\Connect.Agro.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\d2idi\Downloads\RudimentaryCruds\RudimentaryCruds\Connect.Agro\Connect.Agro.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Customer/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Entry/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Entry/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Entry/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cnlcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Plantation/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbnRhdGlvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Plantation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbnRhdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Plantation/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbnRhdGlvblxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Produce/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Produce/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Produce/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Report/ExpenseReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XEV4cGVuc2VSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Report/IncomeReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XEluY29tZVJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Report/ProduceStorageReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFByb2R1Y2VTdG9yYWdlUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Report/SupplyStorageReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFN1cHBseVN0b3JhZ2VSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Sale/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Sale/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Sale/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Sector/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdG9yXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Sector/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Sector/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdG9yXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Supplier/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Supplier/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Supplier/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Supply/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGx5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Supply/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGx5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Supply/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGx5XFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lfqo9pjtxu
+
+[C:/Users/d2idi/Downloads/RudimentaryCruds/RudimentaryCruds/Connect.Agro/Connect.Agro.Web/Views/Shared/_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-ddjsckeoad

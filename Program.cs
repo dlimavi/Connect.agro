@@ -1,72 +1,44 @@
-using System.Text;
-using Connect.Agro.Models.Consts;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
-using Swashbuckle.AspNetCore.Filters;
+using Connect.Agro.Web.Helpers;
+using Connect.Agro.Web.Interfaces;
 
-internal class Program
+namespace Connect.Agro.Web;
+
+public class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
-        builder.Services.AddControllers();
+        // Add services to the container.
+        builder.Services.AddControllersWithViews();
+        builder.Services.AddHttpContextAccessor();
+        builder.Services.AddSession();
+        builder.Services.AddScoped<ISessionHelper, SessionHelpers>();
 
-        //ForeignerServices
-        builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            .AddJwtBearer(options => 
-                options.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8
-                        .GetBytes(SettingsConsts.JwtSecretKey)),
-                    ValidateIssuer = false, 
-                    ValidateAudience = false
-
-                }
-            );
-
-        // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-        builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen(
-            options =>
-            {
-                options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
-                {
-                    Description = "Standart Authorization header  using the Bearer Scheme (\"bearer {token}\")",
-                    In = ParameterLocation.Header,
-                    Name = "Authorization",
-                    Type = SecuritySchemeType.ApiKey
-                });
-
-                options.OperationFilter<SecurityRequirementsOperationFilter>();
-            }
-        );
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
-        if (app.Environment.IsDevelopment())
+        if (!app.Environment.IsDevelopment())
         {
-            app.UseSwagger();
-            app.UseSwaggerUI();
+            // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+            app.UseHsts();
         }
 
-        app.UseCors(builder =>
-        {
-            builder
-                .AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader();
-        });
+        app.UseExceptionHandler("/Home/Error");
 
-        app.MapControllers();
         app.UseHttpsRedirection();
+        app.UseStaticFiles();
+
+        app.UseRouting();
+
+        app.UseAuthorization();
+
+        app.UseSession();
+
+        app.MapControllerRoute(
+            name: "default",
+            pattern: "{controller=Login}/{action=Index}/{id?}");
 
         app.Run();
     }
 }
-
-
