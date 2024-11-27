@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Berna\\OneDrive\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Connect.Agro.Dll\\Connect.Agro.csproj": {}
+    "C:\\Users\\d2idi\\Downloads\\RudimentaryCruds\\RudimentaryCruds\\Connect.Agro\\Connect.Agro.Dll\\Connect.Agro.Dll.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Berna\\OneDrive\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Connect.Agro.Dll\\Connect.Agro.csproj": {
+    "C:\\Users\\d2idi\\Downloads\\RudimentaryCruds\\RudimentaryCruds\\Connect.Agro\\Connect.Agro.Dll\\Connect.Agro.Dll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Berna\\OneDrive\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Connect.Agro.Dll\\Connect.Agro.csproj",
-        "projectName": "Connect.Agro",
-        "projectPath": "C:\\Users\\Berna\\OneDrive\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Connect.Agro.Dll\\Connect.Agro.csproj",
-        "packagesPath": "C:\\Users\\Berna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Berna\\OneDrive\\MyProjects\\RudimentaryCruds\\Connect.Agro\\Connect.Agro.Dll\\obj\\",
+        "projectUniqueName": "C:\\Users\\d2idi\\Downloads\\RudimentaryCruds\\RudimentaryCruds\\Connect.Agro\\Connect.Agro.Dll\\Connect.Agro.Dll.csproj",
+        "projectName": "Connect.Agro.Dll",
+        "projectPath": "C:\\Users\\d2idi\\Downloads\\RudimentaryCruds\\RudimentaryCruds\\Connect.Agro\\Connect.Agro.Dll\\Connect.Agro.Dll.csproj",
+        "packagesPath": "C:\\Users\\d2idi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\d2idi\\Downloads\\RudimentaryCruds\\RudimentaryCruds\\Connect.Agro\\Connect.Agro.Dll\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Berna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\d2idi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
