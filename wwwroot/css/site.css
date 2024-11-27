@@ -1,0 +1,107 @@
+
+.background{
+    height: 150%;
+    position:fixed;
+    z-index: -1;
+}
+
+.sidebar {
+    width: 150px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: #67614b;
+    position: fixed;
+    height: 100vh;
+    box-shadow: rgba(0,0,0,0.4) 5px 0px 10px;
+}
+
+.sidebar-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    padding-top: 7pt;
+    padding-bottom: 7pt;
+    display: block;
+    background-color: none;
+    transition: 0.5s;
+}
+
+.sidebar-button:hover {
+    background-color: #524d3c;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+    box-shadow: rgba(0,0,0,0.8) 0 5px 10px
+}
+
+.sidebar-button label{
+    text-decoration:none;
+    color: white;
+}
+
+.sidebar-button-icon {
+    height:auto;
+    width: 30px; 
+    filter: brightness(0) invert(1);
+}
+
+.top-center-logo{
+
+    padding-top: 15pt;
+    text-align: center;
+}
+
+.controller-title{
+    padding-bottom: 30pt;
+    color: #8f8f8f;
+    width: 100%;
+    text-align: center;
+}
+
+.view-actions-div {
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+}
+
+.left-side-view-action {
+    background-color: green;
+    width: 50%;
+    float: left;
+    margin-left: 0;
+    text-align: center;
+}
+.right-side-view-action {
+    width: 50%;
+    margin-right: 0;
+    text-align: center;
+    float: right;
+}
+
+.register-button {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12pt;
+    font-weight: 700;
+    background-color: #45aa26;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 10pt;
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.register-button:hover{
+    text-decoration: none;
+    color: white;
+    box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;
+}
+
+.register-form {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+}
